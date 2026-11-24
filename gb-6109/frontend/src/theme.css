@@ -1,0 +1,24 @@
+:root {
+  --paper: oklch(0.955 .018 198);
+  --surface: oklch(.982 .008 198);
+  --tint: oklch(.916 0.015 198);
+  --accent: oklch(0.47 0.036 198);
+  --on-accent: oklch(.985 .008 198);
+  --ink: oklch(.235 .037 198);
+  --muted: oklch(.42 .04 198);
+  --rule: oklch(.824 0.014 198);
+  --rail: oklch(0.23 0.021 198);
+  --rail-ink: oklch(.953 .015 198);
+  --rail-highlight: oklch(.34 0.022 198);
+  --signal: oklch(.46 .145 25);
+  --title-font: "Barlow Condensed", "Noto Serif SC", "Songti SC", "STSong", Georgia, serif;
+  --body-font: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --rail-width: clamp(13rem, 20vw, 19rem);
+  --login-ratio: 4fr;
+  --feature-ratio: 5fr;
+  --split-ratio: 3fr;
+  --radius: 3px;
+  --rail-size: 6px;
+  --cell-min: 5rem;
+}
+.login-access { border-inline-start: .5rem solid var(--accent); border-top: 0; }
